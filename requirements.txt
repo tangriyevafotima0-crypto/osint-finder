@@ -1,0 +1,11 @@
+# Core runtime dependencies for OSINT Finder.
+# Only minimum-version pins are used unless compatibility required an exact pin.
+
+PySide6>=6.7
+maigret>=0.6.0
+httpx>=0.27
+Pillow>=10.0
+
+# Development
+pytest>=8.0
+pytest-asyncio>=0.23
